@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1240px;
+}
+
+.navbar {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .navbar-container {
+  display: flex;
+  align-items: center;
+}
+.navbar .navbar-container .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 2rem;
+}
+.navbar .navbar-container nav ul {
+  display: flex;
+  list-style: none;
+}
+.navbar .navbar-container nav ul li {
+  margin-right: 1.5rem;
+}
+.navbar .navbar-container nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+.navbar .contact-btn {
+  margin-left: 560px;
+  background-color: #d4ff00;
+  color: #000;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.main-section {
+  height: 821px;
+  display: flex;
+  padding: 3rem 2rem;
+  background-color: #0d0d0d;
+  color: #fff;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-section .sections {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.main-section .content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.main-section .content h1 span {
+  color: #d4ff00;
+}
+.main-section .content p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+.main-section .content .buttons {
+  display: flex;
+  gap: 1rem;
+}
+.main-section .content .buttons .explore-btn,
+.main-section .content .buttons .learn-btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+.main-section .content .buttons .explore-btn.explore-btn,
+.main-section .content .buttons .learn-btn.explore-btn {
+  background-color: #d4ff00;
+  color: #000;
+}
+.main-section .content .buttons .explore-btn.learn-btn,
+.main-section .content .buttons .learn-btn.learn-btn {
+  background-color: #444;
+  color: #fff;
+}
+.main-section .content .stats {
+  display: flex;
+  margin-top: 2rem;
+  gap: 2rem;
+}
+.main-section .content .stats .stat {
+  text-align: center;
+}
+.main-section .content .stats .stat h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.main-section .content .stats .stat p {
+  font-size: 0.9rem;
+  color: #aaa;
+}
+.main-section .image {
+  position: relative;
+}
+.main-section .image img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+}
+.main-section .image .bid-info {
+  position: absolute;
+  bottom: -10%;
+  left: 10%;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  color: #fff;
+}
+.main-section .image .bid-info p {
+  margin-bottom: 0.5rem;
+}
+.main-section .image .bid-info p span {
+  font-weight: bold;
+}
+.main-section .image .bid-info .bid-btn {
+  background-color: #d4ff00;
+  color: #000;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+}/*# sourceMappingURL=main.css.map */
